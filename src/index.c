@@ -12,15 +12,17 @@ int main() {
     
     //repetições
     int quant;
+    int numMax;
+    printf("De 0 a quanto ele deve gerar os números? (digite um número inteiro maior que 0) ");
+    scanf("%d", &numMax);
     printf("Digite a quantidade de repetições: ");
     scanf("%d", &quant);
-
-    int *arrayDados = (int *)malloc(quant*2 * sizeof(int));
+    int *arrayDados = (int *)malloc(((numMax*2) + 1) * sizeof(int));
     if (arrayDados == NULL) {
         printf("Erro ao alocar memória.\n");
         return 1;
     }
-    for (int i=0;i<quant*2;i++) {
+    for (int i=0;i<=numMax*2;i++) {
         arrayDados[i] = 0;
     }
     srand(time(NULL));
@@ -28,14 +30,14 @@ int main() {
     int num2;
     int soma;
     for (int i = 0;i<quant;i++){
-        num1 = rand() % (quant+1);
-        num2 = rand() % (quant+1);
+        num1 = rand() % (numMax+1);
+        num2 = rand() % (numMax+1);
         soma = num1+num2;
         arrayDados[soma]++;
     }
     printf("x  y\n");
     fprintf(arquivo, "x y\n");
-    for (int i=0;i<quant*2;i++) {
+    for (int i=0;i<=numMax*2;i++) {
         printf("%d  %d\n", i, arrayDados[i]);
         fprintf(arquivo, "%d %d\n", i, arrayDados[i]);
     }

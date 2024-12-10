@@ -1,8 +1,8 @@
-# Programinha em C que soma dois números aléatorios de 0 até a quantidade de repetições e cria um arquivo de dados para plotagem de gráfico.
+# Programinha em C que soma dois números aléatorios de 0 até um número x uma certa quantidade de vezes e cria um arquivo de dados para plotagem de gráfico.
 
-Percebe-se que, quanto maior o número de repetições, mais o gráfico se aproxima de uma distribuição gaussiana, legal. 
+Percebe-se que, quanto maior o número de repetições, mais o gráfico se aproxima de um triângulo, legal. 
 
-Alguns gráficos feitos com o programa:
+Alguns gráficos feitos com o programa (x = 200):
 
 10 repetições:
 
@@ -31,3 +31,11 @@ Alguns gráficos feitos com o programa:
 10000000 repetições:
 
 ![10000000 Repetições](imagens/10000000rep.png)
+
+100000000 repetições:
+
+![100000000 Repetições](imagens/10000000rep.png)
+
+1000000000 repetições:
+
+![1000000000 Repetições](imagens/10000000rep.png)
