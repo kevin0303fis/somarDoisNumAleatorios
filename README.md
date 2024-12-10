@@ -27,5 +27,7 @@ Alguns gráficos feitos com o programa:
 1000000 repetições:
 
 ![1000000 Repetições](imagens/1000000rep.png)
+
 10000000 repetições:
+
 ![10000000 Repetições](imagens/10000000rep.png)
