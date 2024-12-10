@@ -34,8 +34,8 @@ Alguns gráficos feitos com o programa (x = 200):
 
 100000000 repetições:
 
-![100000000 Repetições](imagens/10000000rep.png)
+![100000000 Repetições](imagens/100000000rep.png)
 
 1000000000 repetições:
 
-![1000000000 Repetições](imagens/10000000rep.png)
+![1000000000 Repetições](imagens/1000000000rep.png)
