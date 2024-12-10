@@ -5,16 +5,27 @@ Percebe-se que, quanto maior o número de repetições, mais o gráfico se aprox
 Alguns gráficos feitos com o programa:
 
 10 repetições:
+
 ![10 Repetições](imagens/10rep.png)
+
 100 repetições:
+
 ![100 Repetições](imagens/100rep.png)
+
 1000 repetições:
+
 ![1000 Repetições](imagens/1000rep.png)
+
 10000 repetições:
+
 ![10000 Repetições](imagens/10000rep.png)
+
 100000 repetições:
+
 ![100000 Repetições](imagens/100000rep.png)
+
 1000000 repetições:
+
 ![1000000 Repetições](imagens/1000000rep.png)
 10000000 repetições:
 ![10000000 Repetições](imagens/10000000rep.png)
